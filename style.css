@@ -1,5 +1,5 @@
 
-#firstpage,#secondpage{
+#firstpage,#secondpage,#thirdpage{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,6 +21,11 @@
     font-size: 40px;
     padding-top: 20px;
     text-align: center;
+}
+
+#secondpage_subtitle{
+    font-weight: 300;
+    padding-top: 30px;
 }
 .carousel-nav {
     display: flex;
