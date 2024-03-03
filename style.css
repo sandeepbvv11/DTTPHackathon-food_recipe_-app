@@ -7,17 +7,36 @@
     padding-top: 20px;
     
 }
+#fourthpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+#image_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
 #firstpage_image,#secondpage_image{
     height: max-content;
     width: max-content;    
-  
+    border-radius: 10%;
 }
+#fourthpage_image{
+    height:95px;
+    width:95px;
+ 
+}
+
 #title{
     font-size: 60px;
     padding-top: 20px;
     text-align: center;
 }
-#secondpage_title{
+#secondpage_title,#thirdpage_title{
     font-size: 40px;
     padding-top: 20px;
     text-align: center;
@@ -45,4 +64,23 @@
         color: #fff;
         cursor: pointer;
         border-radius: 50%;
+}
+.icon{
+    position: fixed;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    
+}
+.signup{
+    margin-top: 25px;
+    background-color: greenyellow;
+    width: 80px;
+    border-radius: 10%;
+}
+
+.signin{
+    margin-top: 15px;
+    width: 80px;
+    border-radius: 10%;
 }
