@@ -30,7 +30,13 @@
     width:95px;
  
 }
-
+.peanuts,.seafood,.sesame,.honey,.eggplant,.milk,.cheese,.olive{
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+.opaque {
+    opacity: 0.5;
+    }
 #title{
     font-size: 60px;
     padding-top: 20px;
