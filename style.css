@@ -90,3 +90,12 @@
     width: 80px;
     border-radius: 10%;
 }
+.tabs{
+    padding-left: 20px;
+    
+    border-radius: 10%;
+}
+.tab_1{
+    background-color: beige;
+    
+}
